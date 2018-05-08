@@ -10,7 +10,8 @@ padding: 0; margin: 0;
 html,body{
 display: block;
 height: 100%; width: 100%;
-overflow: hidden;
+overflow: auto;
+
 }
 ul,li,a{
 margin: 0; padding: 0;
@@ -37,24 +38,32 @@ a {
 
 }
 
+.avatar {
+  height: 200px;
+  position:fixed;
+  left: 50px;
+  bottom: 525px;
+
+}
+
+
+
 .main, .main-header, .main-container, .main-footer {
       display: block;
       width: 100%;
-
-
-
 }
 
 .main {
       height: 100%;
       background-color: #E8F9FF;
-      border: solid;
+      border: none;
 }
 
 .main-header {
     width: 100%;
     height: 200px;
     display: inline-block;
+    background-image: url("ADN.png");
     background-image: url("animaux.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -69,6 +78,10 @@ a {
         height: auto;
         border: none;
 
+}
+
+ul.a {
+  list-style-type: circle;
 }
 
 .main-footer {
@@ -100,8 +113,16 @@ background-color: #A2CFFF;
 }
 .content4 {
 border: none;
+width: 500px;
+float:left;
 }
 .content5 {
 border: none;
-    text-align: center;
+width: 500px;
+
+    text-align: right;
+    position: relative;
+    inline-block: right;
+    float:left;
+    margin-left: 500px;
 }
