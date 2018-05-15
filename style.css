@@ -7,17 +7,19 @@ box-sizing: border-box;
 box-sizing: inherit;
 padding: 0; margin: 0;
 }
+
 html,body{
 display: block;
 height: 100%; width: 100%;
 overflow: auto;
-
 }
-ul,li,a{
+
+ul,li,a {
 margin: 0; padding: 0;
 
 text-decoration: none;
 }
+
 
 /* Main */
 
@@ -91,26 +93,22 @@ a {
       width: 100%;
       height: 50px;
       display: inline-block;
-      border: none;
 }
 
 .content1, .content2, .content3, .content4, .content5 {
+  border: none;
   height: 100%;
   width: 100%;
   display: block;
 }
 
 .content1 {
-border: none;
-border-color: red;
 background-color: #5A4CFF;
 color: white;
 padding: 210px 0px 10px 25px;
 }
 
 .content2 {
-  border: none;
-  border-color: red;
   padding-left: 25px;
   padding-bottom: 10px;
 }
@@ -123,7 +121,6 @@ padding-bottom: 10px;
 }
 
 .content4 {
-border: none;
 width: 50%;
 padding-left: 25px;
 background-color: #5A4CFF;
@@ -132,7 +129,6 @@ float:left;
 }
 
 .content5 {
-border: none;
 width: 50%;
 padding-left: 25px;
 background-color: #5A4CFF;
@@ -178,6 +174,16 @@ color: white;
     content: "";
     height: 200px;
     margin: -200px 0 0;
+}
+
+th, td, tr {
+  border: none;
+  padding: 10px;
+}
+
+#tb1, #tb2 {
+  display: inline-table;
+  vertical-align: top;
 }
 
 /*#hobby:before {
